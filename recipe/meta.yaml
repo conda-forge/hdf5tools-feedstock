@@ -1,13 +1,13 @@
 {% set name = "hdf5tools" %}
-{% set version = "0.4.3" %}
+{% set version = "0.4.6" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: cbecba2af577203299952822ec7106fbefc9693b68778358fc34be39e90847a5
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 40399fa4f9e55ed97b525baf3137b9dfaa2352dcd37bb5a62b0ea9c219be23d8
 
 build:
   noarch: python
